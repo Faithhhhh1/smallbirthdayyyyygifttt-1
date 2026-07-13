@@ -8,7 +8,7 @@ const pixelFill = loadingScreen?.querySelector(".pixel-fill");
 let isLoading = false;
 
 /* ---------- Loading Screen ---------- */
-function showLoading(duration = 4000, fadeDuration = 10, displayDelay = 100, callback = null) {
+function showLoading(duration = 4000, fadeDuration = 1000, displayDelay = 1000, callback = null) {
     if (!loadingScreen || !pixelFill) {
         console.error("Loading screen or pixel-fill not found");
         if (callback) callback();
