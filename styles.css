@@ -131,7 +131,7 @@ main {
     background: linear-gradient(180deg, #1a2a4a 0%, #3a5b9b 40%, #8b6bc5 70%, #e29ac6 100%);
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.5s ease;
+    transition: none;
 }
 
 .loading-screen.active {
